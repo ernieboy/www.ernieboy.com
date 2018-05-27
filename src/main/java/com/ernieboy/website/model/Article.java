@@ -7,4 +7,3 @@ public class Article  extends Entity{
     private String summary;
 
 }
-https://github.com/ernieboy/www.ernieboy.com.git
