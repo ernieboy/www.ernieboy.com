@@ -1,9 +1,18 @@
 package com.ernieboy.website.model;
 
-public class Article  extends Entity{
+import com.ernieboy.website.sharedkernel.persistence.BaseEntity;
 
-    private String Title;
-    private String Body;
-    private String summary;
+import javax.persistence.Entity;
+
+
+@Entity
+public class Article  extends BaseEntity {
+
+    private String _title;
+    private String _body;
+    private String _summary;
+    private RecordStatus _recordStatus;
+
+
 
 }
